@@ -1,0 +1,57 @@
+header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./images/simple-house-01\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.head{
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+}
+
+.head > span{
+    color: #fff;
+    font-size: 32px;
+}
+
+.head > p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 60px;
+    padding-top: 5px;
+}
+
+.navigation > ul > li{
+    display: inline-block;
+}
+
+.links{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 0 30px;
+}
+
+
+.active{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    transition: 0.5s;
+}
+
+

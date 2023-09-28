@@ -1,0 +1,29 @@
+.btn_animation{
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.show{
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    text-align: left;
+    font-size: 18px;
+    color: gray;
+}
+
+.show:hover{
+    color: cornflowerblue;
+    transition: 0.5s;
+}
+
+.texts{
+    margin: 10px;
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+    line-height: 30px;
+}
